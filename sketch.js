@@ -17,7 +17,7 @@ function setup() {
   dogSprite=createSprite(250,250,50,50);
   dogSprite.addImage(dogImage);                         
   dogSprite.scale = 0.1;
-
+    
 }
 
 

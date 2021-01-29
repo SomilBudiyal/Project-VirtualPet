@@ -32,7 +32,7 @@ factory(root.p5);
  */
 
 // =============================================================================
-//                         initialization
+//                         initialization 
 // =============================================================================
 
 var DEFAULT_FRAME_RATE = 30;
@@ -6720,7 +6720,7 @@ p5.prototype._warn = function(message) {
    */
   p5.Vector.transform = function(v, t) {
     return v.copy().transform(t);
-  };
+  }; 
 
   /**
    * Transforms this vector by a 2D transformation matrix.
